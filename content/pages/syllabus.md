@@ -28,10 +28,39 @@ Medical Guru: Dr. Rajiv Gupta
 Grading
 -------
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Assignments and labs | 40% |
-| Team project | 60% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Assignments and labs
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Team project
+{{< tdclose >}}
+{{< tdopen >}}
+60%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
   
 
@@ -63,30 +92,477 @@ A key part of your project is to record what you did to help you organize your t
 Calendar
 --------
 
-| WEEK # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| 1 | Lab 1 and 2 distributed |  |
-| Lecture 1 - Introduction |  |
-| 2 |  {{< br >}}{{< br >}} Doctors present ideas in class {{< br >}}{{< br >}} {{< h 3 >}}Lab 1 and 2{{< /h >}} {{< br >}}{{< br >}} Design custom circuit, learn PCB artist, generate libraries, create schematic {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Students form teams of 4 {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Lecture 2 - Basic electronics{{< /h >}} {{< br >}}{{< br >}} Linear elements, thevenin-norton, impedance analysis {{< br >}}{{< br >}}  |  |
-| 3 | {{< h 3 >}}Lecture 3 - Diodes and transistors{{< /h >}} {{< br >}}{{< br >}} Models, LEDs, peak-detector, zeners, diode protection circuits, BJT, FET, amplifiers, drivers, H-bridges {{< br >}}{{< br >}} {{< h 3 >}}Lab 3{{< /h >}} {{< br >}}{{< br >}} Layout PCB {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lab 1 and 2 due {{< br >}}{{< br >}} {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Define functional requirements {{< br >}}{{< br >}} Define components of the system {{< br >}}{{< br >}} Research strategies by literature and patent review {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Lecture 4 - Power supplies{{< /h >}} {{< br >}}{{< br >}} Proper bypassing, linear power supplies, switching power supplies {{< br >}}{{< br >}} MIT libraries lectures on literature and patent searching {{< br >}}{{< br >}}  | Lab 3 due; submit PCB for manufacturing |
-| 4 | {{< h 3 >}}Lecture 5 - Microprocessors I{{< /h >}} {{< br >}}{{< br >}} Basic topologies, feedback, stability, accurate peak detector {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Identify most critical module (MCM) {{< br >}}{{< br >}} Develop bench level experiments to test strategies for the MCM {{< br >}}{{< br >}} Begin to acquire components for MCM and other modules {{< br >}}{{< br >}}  |
-| 5 | {{< h 3 >}}Lecture 6 - Microprocessors II{{< /h >}} {{< br >}}{{< br >}} Practical considerations, reading op amp datasheets error propagation, filters {{< br >}}{{< br >}} {{< h 3 >}}Lab 4{{< /h >}} {{< br >}}{{< br >}} Soldering, assembly, and debugging {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Run bench level experiments {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Lecture 7 - OpAmps I{{< /h >}} {{< br >}}{{< br >}} Basics programming concepts, memory organization, clocks, ADCs {{< br >}}{{< br >}}  | Lab 4 due |
-| 6 | {{< h 3 >}}Lab 5{{< /h >}} {{< br >}}{{< br >}} Microprocessor programming {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Design circuits for MCM {{< br >}}{{< br >}}  |
-| Robopsy guest lecture |  |
-| 7 | {{< h 3 >}}Lecture 8 - OpAmps II{{< /h >}} {{< br >}}{{< br >}} Timers, communications, wireless {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Design circuits for other modules {{< br >}}{{< br >}} Layout circuits {{< br >}}{{< br >}} Submit for manufacturing {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Lecture 9 - Analog signal processing{{< /h >}} {{< br >}}{{< br >}} ADC, references, noise, synchronous detection {{< br >}}{{< br >}}  | Lab 5 due |
-| 8 | {{< h 3 >}}Lecture 10 - Sensors I{{< /h >}} {{< br >}}{{< br >}} Capacitive, impedance, optical {{< br >}}{{< br >}} {{< h 3 >}}Lab 6 (optional){{< /h >}} {{< br >}}{{< br >}} PC user interface design in Visual Basic® {{< br >}}{{< br >}}  | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Assemble and test first iteration {{< br >}}{{< br >}}  |
-| {{< h 3 >}}Lecture 11 - Sensors II{{< /h >}} {{< br >}}{{< br >}} Encoders, magnetic, strain acoustic, inertial {{< br >}}{{< br >}}  | Lab 6 due |
-| 9 | Chris Salthouse guest lecture | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Assemble and test first iteration {{< br >}}{{< br >}}  |
-| No lecture, weekly team meeting with staff |  |
-| 10 | No lecture, weekly team meeting with staff | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Design circuits for 2nd iteration {{< br >}}{{< br >}}  |
-| 11 | No lecture, weekly team meeting with staff | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Submit for final manufacturing {{< br >}}{{< br >}}  |
-| 12 | No lecture, weekly team meeting with staff | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Develop software and firmware {{< br >}}{{< br >}}  |
-| 13 | No lecture, weekly team meeting with staff | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Integration and test device {{< br >}}{{< br >}}  |
-| 14 | No lecture, weekly team meeting with staff | {{< h 3 >}}Project goals{{< /h >}} {{< br >}}{{< br >}} Prototype complete, final paper done {{< br >}}{{< br >}}  |
-| Final presentations in class: projects 1 and 2 |  |
-| 15 | Final presentations in class: projects 3 and 4 |  |
-|  {{< br >}}{{< br >}} Final class: turn in journal article as final paper {{< br >}}{{< br >}} Recap and reflections {{< br >}}{{< br >}}  | Final papers will be accepted as late as last class
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+WEEK #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 and 2 distributed
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lecture 1 - Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Doctors present ideas in class
+
+### Lab 1 and 2
+
+Design custom circuit, learn PCB artist, generate libraries, create schematic
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Students form teams of 4
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Lecture 2 - Basic electronics
+
+Linear elements, thevenin-norton, impedance analysis
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lecture 3 - Diodes and transistors
+
+Models, LEDs, peak-detector, zeners, diode protection circuits, BJT, FET, amplifiers, drivers, H-bridges
+
+### Lab 3
+
+Layout PCB
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lab 1 and 2 due
+
+### Project goals
+
+Define functional requirements
+
+Define components of the system
+
+Research strategies by literature and patent review
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Lecture 4 - Power supplies
+
+Proper bypassing, linear power supplies, switching power supplies
+
+MIT libraries lectures on literature and patent searching
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 due; submit PCB for manufacturing
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lecture 5 - Microprocessors I
+
+Basic topologies, feedback, stability, accurate peak detector
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Identify most critical module (MCM)
+
+Develop bench level experiments to test strategies for the MCM
+
+Begin to acquire components for MCM and other modules
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lecture 6 - Microprocessors II
+
+Practical considerations, reading op amp datasheets error propagation, filters
+
+### Lab 4
+
+Soldering, assembly, and debugging
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Run bench level experiments
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Lecture 7 - OpAmps I
+
+Basics programming concepts, memory organization, clocks, ADCs
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lab 5
+
+Microprocessor programming
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Design circuits for MCM
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Robopsy guest lecture
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lecture 8 - OpAmps II
+
+Timers, communications, wireless
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Design circuits for other modules
+
+Layout circuits
+
+Submit for manufacturing
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Lecture 9 - Analog signal processing
+
+ADC, references, noise, synchronous detection
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Lecture 10 - Sensors I
+
+Capacitive, impedance, optical
+
+### Lab 6 (optional)
+
+PC user interface design in Visual Basic®
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Assemble and test first iteration
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Lecture 11 - Sensors II
+
+Encoders, magnetic, strain acoustic, inertial
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Chris Salthouse guest lecture
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Assemble and test first iteration
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Design circuits for 2nd iteration
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Submit for final manufacturing
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Develop software and firmware
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Integration and test device
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+No lecture, weekly team meeting with staff
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Project goals
+
+Prototype complete, final paper done
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final presentations in class: projects 1 and 2
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Final presentations in class: projects 3 and 4
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Final class: turn in journal article as final paper
+
+Recap and reflections
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Final papers will be accepted as late as last class
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
