@@ -130,7 +130,7 @@ Basics programming concepts, memory organization, clocks, ADCs ([PDF]({{< baseur
 
 Ones complement ([PDF]({{< baseurl >}}/resources/onescomplement))
 
-main.c ([C](/courses/mechanical-engineering/2-996-biomedical-devices-design-laboratory-fall-2007/lecture-notes/main.c))
+main.c ({{% resource_link "0fce9a9a-824d-7c12-92cb-99ffc7a47117" "C" %}})
 
 adc\_example.zip ([ZIP]({{< baseurl >}}/resources/adc_example)) (The ZIP file contains: adc\_xample\_code.pdf and main.c files.)
 

@@ -26,11 +26,11 @@ PCB library files for standard components used in class ([CML]({{< baseurl >}}/r
 
 Labs 1-3 design files ([PCB]({{< baseurl >}}/resources/lab_example1)) ([SCH]({{< baseurl >}}/resources/lab_example1-1))
 
-Code for CRC ([H](/courses/mechanical-engineering/2-996-biomedical-devices-design-laboratory-fall-2007/labs/crc.h))
+Code for CRC ({{% resource_link "73ca2075-accb-5c6c-774f-978b7093cbb8" "H" %}})
 
 MSP430 Bootloader description ([PDF]({{< baseurl >}}/resources/bootloader))
 
-Wootloader software and file ([EXE]({{< baseurl >}}/resources/wootloader)) ([EPT](/courses/mechanical-engineering/2-996-biomedical-devices-design-laboratory-fall-2007/labs/wootstick.ept))
+Wootloader software and file ([EXE]({{< baseurl >}}/resources/wootloader)) ({{% resource_link "6a15c271-28ec-067c-790a-9ae2df1f8d43" "EPT" %}})
 
 Lab 6: USB VB Terminal software ([EXE]({{< baseurl >}}/resources/vbterminal))
 

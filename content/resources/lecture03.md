@@ -4,6 +4,7 @@ description: Lecture slides on diodes and transistors, models, LEDs, peak-detect
   zeners, diode protection circuits, BJT, FET, amplifiers, drivers, and H-bridges.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-996-biomedical-devices-design-laboratory-fall-2007/2213973217d2b3ce2ec1d927438e28cc_lecture03.pdf
 file_type: application/pdf
+parent_uid: c6958fde-a793-c080-4033-7b892134ebe6
 resourcetype: Document
 title: lecture03.pdf
 uid: 22139732-17d2-b3ce-2ec1-d927438e28cc
